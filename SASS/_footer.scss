@@ -5,11 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid grey;
     &__img{
         height: 40px;
-    }
-    &__content{
-        border: 1px solid orangered;
     }
     &__info{
         font-size: 0.65rem;
