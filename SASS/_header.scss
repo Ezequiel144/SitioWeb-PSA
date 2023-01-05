@@ -1,0 +1,82 @@
+@use "menuoculto";
+@use "variables";
+
+
+.header{
+    font-family: 'Libre Franklin', sans-serif;
+    border-bottom: 1px solid variables.$color_grey;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        height: 50px;
+    }
+    &__link{
+        font-weight: 700;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: variables.$azul_intenso;
+        height: 32px;
+    }
+
+    &__link:hover{
+        color: variables.$celeste;
+    }
+
+    @media (min-width:1000px){
+        height: 150px;
+        &__logo{
+            height: 100px;
+            margin-left: -500px;
+        }
+        &__link{
+            font-size: 1rem;
+            font-weight: 400;
+            height: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 300px;
+
+}
+
+.listoption{
+    display: none;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    li{
+        list-style: none;
+    }
+    
+    &__art{
+        display: none;
+        font-weight: 400;
+    }
+    
+    @media (min-width:1000px){
+        
+        width: 400px;
+        &__art{
+            display: block;
+            text-decoration: none;
+            color: variables.$color_letras;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &__art:hover{
+            border-left:2px solid variables.$celeste;
+        }
+    }
+}

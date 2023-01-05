@@ -1,0 +1,22 @@
+@use "footer";
+@use "header";
+@use "variables";
+@use "content";
+@import url('https://fonts.googleapis.com/css2? familia= Libre+Franklin:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    width: 350px;
+    margin: auto;
+    border: 1px solid green;
+    @media (min-width:1000px) {
+        width: 100%;
+    }
+}

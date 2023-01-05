@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap');
+
+.footer{
+    padding: 5px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img{
+        height: 40px;
+    }
+    &__content{
+        border: 1px solid orangered;
+    }
+    &__info{
+        font-size: 0.65rem;
+        //border: 1px solid red;
+        height: 60px;
+        width: 140px;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+
+    }
+    &__provee{
+        font-size: 0.65rem;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+
+    }
+    &__insta{
+        img{
+            height: 20px;
+        }
+    }
+    &__face{
+        img{
+            height: 20px;
+        }
+    }
+    &__twit{
+        img{
+            height: 20px;
+        }
+    }
+    &__soc{
+        display: flex;
+        justify-content: space-between;
+        width: 80px;
+        margin-right: 15px;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    @media (min-width:1000px){
+        justify-content: space-around;
+        height: 150px;
+        &__info,&__provee{
+            font-size: 1rem;
+            //border: 1px solid red;
+            height: 80px;
+            width: 250px;
+        }
+        &__provee{
+            height: 20px;
+        }
+        &__insta{
+            img{
+                height: 50px;
+            }
+        }
+        &__face{
+            img{
+                height: 50px;
+            }
+        }
+        &__twit{
+            img{
+                height: 50px;
+            }
+        }
+        &__soc{
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+        &__img{
+            height: 80px;
+        }
+    }
+}

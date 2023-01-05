@@ -1,0 +1,19 @@
+.menu{
+    &__hamburg{
+        width: 15px;
+        margin-right: 15px;
+    }
+    &__hamburg:hover{
+        cursor: pointer;
+    }
+    @media (min-width:1000px) {
+        &__hamburg{
+            display: none;
+        }
+        
+    }
+    &__navback{
+        display: none;
+        border: 1px solid blue;
+    }
+}
