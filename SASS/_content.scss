@@ -33,7 +33,6 @@
     }
     &__backgorund__text{
         color: white;
-        font-family: 'Libre Franklin', sans-serif;
         font-weight: 400;
         font-size: 0.9rem;
         //padding: 10px 0;
@@ -61,6 +60,7 @@
 
     &__bidon{
         //border: 1px solid green;
+        background-color: variables.$color_grey_back;
         &__title{
             //border: 1px solid red;
             width: 330px;
@@ -128,7 +128,7 @@
             }
         }
         &__bidon{
-            //border: 1px solid red;
+            background-color: variables.$color_grey_back;
             &__title{
                 margin-bottom: 25px;
             }

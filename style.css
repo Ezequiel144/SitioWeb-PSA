@@ -117,7 +117,6 @@
   }
   .header__logo {
     height: 100px;
-    margin-left: -500px;
   }
   .header__link {
     font-size: 1rem;
@@ -127,11 +126,14 @@
   }
 }
 
-.nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 300px;
+@media (min-width: 1000px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+    padding-left: 30px;
+  }
 }
 
 .listoption {
@@ -162,7 +164,8 @@
   }
   .navlist__art:hover {
     border-left: 2px solid #00d4ff;
-    border-right: 2px solid #00d4ff;
+    color: #004aad;
+    font-weight: 700;
   }
 }
 
@@ -199,7 +202,6 @@
 }
 .content__backgorund__text {
   color: white;
-  font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
   margin-top: 15px;
@@ -217,6 +219,9 @@
   font-size: 0.9rem;
   font-weight: 400;
   width: 350px;
+}
+.content__bidon {
+  background-color: rgba(147, 147, 147, 0.21);
 }
 .content__bidon__title {
   width: 330px;
@@ -273,6 +278,9 @@
   }
   .content__water__text {
     width: 100%;
+  }
+  .content__bidon {
+    background-color: rgba(147, 147, 147, 0.21);
   }
   .content__bidon__title {
     margin-bottom: 25px;
