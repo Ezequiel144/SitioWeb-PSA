@@ -36,7 +36,12 @@
         font-weight: 400;
         font-size: 0.9rem;
         //padding: 10px 0;
-        margin-top: 15px;
+        margin-top: 20px;
+        //border: 1px solid red;
+        &__subt{
+            margin: 10px 0;
+            border-bottom:1px solid white;
+        }
     }
 
     &__water{
@@ -54,7 +59,12 @@
             font-weight: 400;
             //border: 1px solid orangered;
             width: 350px;
-            
+            &__list{
+                text-align: left;
+                margin: 12px 20px;
+                font-size: 0.9rem;
+                font-weight: 700;
+            }
         }
     }
 
@@ -107,10 +117,18 @@
         &__background__img{
             height: 350px;
             width: 500px;
+            margin-left: auto;
         }
         &__backgorund__text{
             text-align: left;
-            margin: auto 15px;
+            margin: auto auto;
+            font-size: 1.1rem;
+            //border: 1px solid white;
+            height: 200px;
+            &__subt{
+                font-size: 1.3rem;
+                //border: 1px solid green;
+            }
         }
         &__water{
             //border: 1px solid green;
@@ -122,16 +140,24 @@
                 order: 1;
             }
             div{
-                margin: auto;
+                margin: auto 50px;
             }
             &__text{
                 //border: 1px solid red;
                 width: 100%;
+                margin-bottom: 30px;
+                font-size: 1.3rem;
+                &__list{
+                    margin: 10px 0;
+                    font-size: 1.1rem;
+                }
             }
         }
         &__bidon{
             background-color: variables.$color_grey_back;
+            //height: 850px;
             height: 500px;
+            //border: 1px solid green;
             &__title{
                 margin-bottom: 25px;
                 color: variables.$color_letras;
@@ -141,8 +167,11 @@
                 justify-content: space-between;
                 width: 65%;
                 margin: auto;
+                //border: 1px solid red;
                 &__i{
                     width: 300px;
+                    /*width: 500px;
+                    height:700px;*/ 
                 }
             }
         }

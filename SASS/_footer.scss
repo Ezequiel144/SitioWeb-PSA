@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap');
 
+
 .footer{
     padding: 5px 10px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    &__logo{
+        height: 50px;
+        width: 120px;
+    }
     &__img{
         height: 40px;
     }
@@ -24,8 +29,9 @@
 
     }
     &__insta{
+        margin: auto;
         img{
-            height: 20px;
+            height: 35px;
         }
     }
     &__face{
@@ -51,6 +57,10 @@
     @media (min-width:1000px){
         justify-content: space-around;
         height: 150px;
+        &__logo{
+            height: 110px;
+            width: 250px;
+        }
         &__info,&__provee{
             font-size: 1rem;
             //border: 1px solid red;
