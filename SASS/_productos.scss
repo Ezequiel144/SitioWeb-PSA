@@ -1,0 +1,55 @@
+@use "variables";
+
+.mainProduc{
+    //border: 1px solid red;
+    padding: 15px 10px;
+    &__title{
+        border-bottom: 1px solid variables.$celeste;
+        font-size: 1.8rem;
+        //width: 185px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    &__subtitle{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    &__img{
+        width: 100%;
+        //border: 1px solid green;
+    }
+    &__descrip{
+        //border: 1px solid black;
+        margin-bottom: 30px;
+        &__subtitle{
+            margin-bottom: 5px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        &__text{
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+    }
+    &__contn{
+        //border: 1px solid red;
+        &__img{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width:1000px){
+        padding: 20px 40px;
+        //border: 1px solid red;
+        
+        &__img{
+            width: 500px;
+            margin: auto;
+        }
+        &__descrip__text{
+            margin-bottom: 40px;
+        }
+        
+    }
+}
