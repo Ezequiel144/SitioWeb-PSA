@@ -379,8 +379,13 @@ body {
 }
 
 .mainProduc #content_prod {
-  width: 80%;
-  margin: auto;
+  padding: 10px 15px;
+}
+@media (min-width: 1000px) {
+  .mainProduc #content_prod {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .mainProduc__title {
