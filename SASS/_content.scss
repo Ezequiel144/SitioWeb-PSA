@@ -4,7 +4,7 @@
     width: 100%;
     
     &__tree{
-        width: 300px;
+        width: 240px;
         height: 1030px;
         margin: auto;
         display: flex;
@@ -90,8 +90,8 @@
             flex-direction: column;
             padding: 0 20px;
             &__i{
-                height: 330px;
-                width: 300px;
+                height: 305px;
+                width: 240px;
                 margin: auto;
                 margin-bottom: 30px;
                 box-shadow: 3px 3px 7px 1px;
@@ -108,8 +108,8 @@
             display: flex;
             flex-direction: row;
             .imgs{
-                width: 500px;
-                height:700px;   
+                width: 430px;
+                height: 600px;   
                 box-shadow: 1px 1px 10px 3px;
                 margin: auto;
             }
