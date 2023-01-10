@@ -15,6 +15,8 @@
 .mainProduc{
     //border: 1px solid red;
     //padding: 15px 0px;
+    width: 90%;
+    margin: auto;
     position: relative;
     &__contentwhats{
         position: sticky;
@@ -39,16 +41,22 @@
 
     
     &__title{
-        border-bottom: 1px solid variables.$celeste;
+        //border-bottom: 1px solid variables.$celeste;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        background-color: variables.$celeste;
         font-size: 1.8rem;
         //width: 185px;
-        margin-bottom: 20px;
+        margin: 40px 0 60px;
         font-weight: 700;
     }
     &__subtitle{
         margin-bottom: 10px;
         font-size: 1.6rem;
         font-weight: 700;
+        color: variables.$azul_intenso;
     }
     &__img{
         width: 100%;
@@ -59,11 +67,14 @@
         //border: 1px solid black;
         margin-bottom: 30px;
         &__subtitle{
-            margin-bottom: 5px;
+            margin-top: 10px;
             font-size: 1.3rem;
             font-weight: 700;
+            background-color: variables.$color_grey_back;
+            padding: 10px;
         }
         &__text{
+            margin-top: 15px;
             font-size: 1.1rem;
             font-weight: 400;
             //border: 1px solid blue;
@@ -75,11 +86,13 @@
         &__img{
             width: 100%;
             margin-bottom: 30px;
+            object-fit:contain;
             //border: 1px solid orange;
         }
         &__imgb{
             width: 100%;
             margin-bottom: 30px;
+            object-fit:contain;
         }
     }
     @media (min-width:1000px){
