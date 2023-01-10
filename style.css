@@ -242,6 +242,110 @@ body {
   }
 }
 
+.content {
+  width: 90%;
+  margin: auto;
+}
+.content__all {
+  padding: 40px 10px;
+  margin-bottom: 50px;
+}
+.content__all__party__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #004aad;
+}
+.content__all__party__four__img {
+  width: 410px;
+  margin: 40px 5px;
+  border-radius: 10px;
+}
+.content__all__party__text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #004aad;
+  border: 2px solid #055393;
+  border-radius: 50px;
+  width: 300px;
+  margin: auto;
+}
+.content__all2 {
+  display: flex;
+  flex-direction: column;
+}
+.content__all2__part1 {
+  border: 2px solid #098ee6;
+  border-radius: 20px;
+  padding: 40px 10px;
+}
+.content__all2__part1__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #004aad;
+}
+.content__all2__part1__bidon {
+  margin-top: 40px;
+}
+.content__all2__part1__bidon__img1, .content__all2__part1__bidon__img2 {
+  width: 410px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+.content__all2__part2 {
+  margin-top: 100px;
+  border: 2px solid #098ee6;
+  border-radius: 20px;
+  padding: 40px 10px;
+}
+.content__all2__part2__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #004aad;
+}
+.content__all2__part2__produc {
+  margin-top: 40px;
+}
+.content__all2__part2__produc__img1, .content__all2__part2__produc__img2 {
+  width: 410px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .content__all2 {
+    flex-direction: row;
+  }
+  .content__all2__part1 {
+    width: 50%;
+  }
+  .content__all2__part1__bidon {
+    margin: auto;
+    width: 90%;
+    padding: 5px 20px;
+  }
+  .content__all2__part1__bidon__img1, .content__all2__part1__bidon__img2 {
+    width: 350px;
+  }
+  .content__all2__part2 {
+    width: 50%;
+  }
+  .content__all2__part2__produc {
+    width: 90%;
+    margin: auto;
+    padding: 5px 20px;
+  }
+  .content__all2__part2__produc__img1, .content__all2__part2__produc__img2 {
+    width: 350px;
+    margin: 30px auto;
+  }
+}
+
 /*.content{
     width: 100%;
     &__tree{
@@ -471,6 +575,7 @@ body {
   border-radius: 50px;
   padding: 10px;
   text-align: center;
+  text-transform: uppercase;
   color: white;
   background-color: #00d4ff;
   font-size: 1.8rem;
@@ -495,6 +600,8 @@ body {
   font-weight: 700;
   background-color: rgba(147, 147, 147, 0.21);
   padding: 10px;
+  text-align: center;
+  border-radius: 50px;
 }
 .mainProduc__descrip__text {
   margin-top: 15px;

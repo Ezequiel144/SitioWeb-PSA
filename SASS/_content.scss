@@ -1,6 +1,126 @@
 @use "variables";
 
+.content{
+    //border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    &__all{
+        //border: 1px solid green;
+        padding: 40px 10px;
+        margin-bottom: 50px;
+        &__party{
+            &__title{
+                font-weight: 700;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                text-align: center;
+                color: variables.$azul_intenso;
+            }
+            &__four{
+                //border: 1px solid blue;
+                &__img{
+                    width: 410px;
+                    margin: 40px 5px;
+                    //border: 2px solid variables.$celesteAzul;
+                    border-radius: 10px;
+                }
+            }
+            &__text{
+                font-weight: 400;
+                font-size: 1.5rem;
+                text-align: center;
+                color: variables.$azul_intenso;
+                border: 2px solid variables.$azul_intenso_2;
+                border-radius: 50px;
+                width: 300px;
+                margin: auto;
+            }
+        }
+    }
+    &__all2{
+        //margin: 50px 20px;
+        //border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        //padding: 10px;
+        &__part1{
+            //border: 2px solid variables.$azul_intenso_2;
+            border: 2px solid variables.$celesteAzul;
+            border-radius: 20px;
+            padding: 40px 10px;
+            &__title{
+                font-weight: 700;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                text-align: center;
+                color: variables.$azul_intenso;
+            }
+            &__bidon{
+                margin-top: 40px;
+                &__img1,&__img2{
+                    width: 410px;
+                    margin: 40px auto ;
+                    border-radius: 10px;
+                }
+            }
+        }
+        &__part2{
+            margin-top: 100px;
+            border: 2px solid variables.$celesteAzul;
+            border-radius: 20px;
+            padding: 40px 10px;
+            &__title{
+                font-weight: 700;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                text-align: center;
+                color: variables.$azul_intenso;
+            }
+            &__produc{
+                margin-top: 40px;
+                &__img1,&__img2{
+                    width: 410px;
+                    margin: 40px auto ;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+    @media (min-width:1000px) {
+        &__all2{
+            flex-direction: row;
+            &__part1{
+                width: 50%;
+                &__bidon{
+                    //border: 1px solid green;
+                    margin: auto;
+                    width: 90%;
+                    padding: 5px 20px;
+                    &__img1,&__img2{
+                        width: 350px;
+                    }
+                }
+            }
 
+
+            &__part2{
+                width: 50%;
+                &__produc{
+                    width: 90%;
+                    margin: auto;
+                    //: 1px solid red;
+                    padding: 5px 20px;
+                    &__img1,&__img2{
+                        width: 350px;
+                        margin: 30px auto ;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
 
 
 
