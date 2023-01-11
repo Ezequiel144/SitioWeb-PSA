@@ -112,8 +112,8 @@
     }
 
     &__all4{
-        //border: 2px solid variables.$celesteAzul;
-        background-color: variables.$celesteAzul;
+        border: 2px solid variables.$celesteAzul;
+        //background-color: variables.$celesteAzul;
         border-radius: 50px;
         padding: 40px 30px;
         &__title{
@@ -121,8 +121,8 @@
             font-size: 2.5rem;
             text-transform: uppercase;
             text-align: center;
-            //color: variables.$azul_intenso;
-            color: white;
+            color: variables.$azul_intenso;
+            //color: white;
         }
         &__prim{
             //padding: 0px;
