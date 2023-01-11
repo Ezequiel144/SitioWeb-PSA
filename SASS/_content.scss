@@ -17,12 +17,13 @@
                 color: variables.$azul_intenso;
             }
             &__four{
-                //border: 1px solid blue;
+                
+                margin: 20px 0;
                 &__img{
-                    width: 410px;
-                    margin: 40px 5px;
+                    width: 100%;
                     //border: 2px solid variables.$celesteAzul;
                     border-radius: 10px;
+                    margin-bottom: 20px;
                 }
             }
             &__text{
@@ -87,6 +88,29 @@
         }
     }
     @media (min-width:1000px) {
+        &__all{
+            &__party{
+                &__title{
+                    margin-bottom: 20px;
+                }
+                //border: 1px solid red;
+                &__four{
+                    //border: 1px solid red;
+                    padding: 0 10px;
+                    width: 1400px;
+                    margin: auto;
+                    &__img{
+                        margin: 20px 20px;
+                        width: 410px;
+                    }
+                }
+                &__text{
+                    margin-top: 20px;
+                }
+            }
+        }
+
+
         &__all2{
             flex-direction: row;
             &__part1{

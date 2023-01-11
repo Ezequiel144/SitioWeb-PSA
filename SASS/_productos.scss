@@ -63,6 +63,8 @@
         width: 100%;
         //border: 1px solid green;
         //margin-bottom: 5px;
+        border-radius: 50px;
+        border: 2px solid variables.$color_grey_back;
     }
     &__descrip{
         //border: 1px solid black;
@@ -90,12 +92,16 @@
             width: 100%;
             margin-bottom: 30px;
             object-fit:contain;
+            border: 2px solid variables.$color_grey_back;
+            border-radius: 50px;
             //border: 1px solid orange;
         }
         &__imgb{
             width: 100%;
             margin-bottom: 30px;
             object-fit:contain;
+            border-radius: 50px;
+            border: 2px solid variables.$color_grey_back;
         }
     }
     @media (min-width:1000px){
