@@ -39,7 +39,7 @@
         }
     }
     &__all2{
-        //margin: 50px 20px;
+        margin-bottom: 50px;
         //border: 1px solid blue;
         display: flex;
         flex-direction: column;
@@ -48,7 +48,7 @@
             //border: 2px solid variables.$azul_intenso_2;
             border: 2px solid variables.$celesteAzul;
             border-radius: 20px;
-            padding: 40px 10px;
+            padding: 40px 30px;
             &__title{
                 font-weight: 700;
                 font-size: 2.5rem;
@@ -59,17 +59,18 @@
             &__bidon{
                 margin-top: 40px;
                 &__img1,&__img2{
-                    width: 410px;
+                    width: 100%;
                     margin: 40px auto ;
                     border-radius: 10px;
+                    //border: 1px solid black;
                 }
             }
         }
         &__part2{
-            margin-top: 100px;
+            margin-top: 80px;
             border: 2px solid variables.$celesteAzul;
             border-radius: 20px;
-            padding: 40px 10px;
+            padding: 40px 30px;
             &__title{
                 font-weight: 700;
                 font-size: 2.5rem;
@@ -80,13 +81,37 @@
             &__produc{
                 margin-top: 40px;
                 &__img1,&__img2{
-                    width: 410px;
+                    width: 100%;
                     margin: 40px auto ;
                     border-radius: 10px;
+                    border: 2px solid variables.$color_grey_back;
                 }
             }
         }
+
     }
+    
+    &__all3{
+        //border: 1px solid red;
+        &__title{
+            font-weight: 700;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            text-align: center;
+            color: variables.$azul_intenso;
+        }
+        &__busin{
+            //border: 1px solid green;
+            padding: 30px;
+            &__img1,&__img2{
+                width: 100%;
+                border-radius: 10px;
+                margin: 30px 0;
+            }
+        }
+    }
+    
+
     @media (min-width:1000px) {
         &__all{
             &__party{
@@ -113,15 +138,18 @@
 
         &__all2{
             flex-direction: row;
+            //border: 1px solid black;
             &__part1{
-                width: 50%;
+                width: 48%;
+                margin-right: 35px;
                 &__bidon{
                     //border: 1px solid green;
-                    margin: auto;
-                    width: 90%;
-                    padding: 5px 20px;
+                    margin: 30px auto;
+                    width: 80%;
+                    padding: 0px 50px;
                     &__img1,&__img2{
-                        width: 350px;
+                        width: 100%;
+                        //border: 1px solid blue;
                     }
                 }
             }
@@ -129,14 +157,15 @@
 
             &__part2{
                 width: 50%;
+                margin: 0;
+                //border: 1px solid red;
                 &__produc{
-                    width: 90%;
-                    margin: auto;
-                    //: 1px solid red;
-                    padding: 5px 20px;
+                    width: 80%;
+                    margin: 30px auto;
+                    //border: 1px solid red;
+                    //padding: 5px 20px;
                     &__img1,&__img2{
-                        width: 350px;
-                        margin: 30px auto ;
+                        width: 100%;
                     }
                 }
             }
