@@ -1,0 +1,88 @@
+@use "variables";
+
+.main{
+    //border: 1px solid rebeccapurple;
+    padding: 60px 40px;
+    &__boxwhats{
+        padding: 2px;
+        //border: 1px solid green;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: 40px auto;
+        justify-content: space-around;
+        //box-shadow: 1px 1px 10px 1px;
+        &__img{
+            width: 50px;
+        }
+    }    
+    &__correo{
+        //border: 1px solid #f44336;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin: 40px auto;
+        justify-content: space-around;
+        //box-shadow: 1px 1px 10px 1px;
+        &__img{
+            width: 50px;
+        }
+    }
+    &__form{
+        //box-shadow: 1px 1px 5px 3px variables.$azul_intenso_2;
+        //border: 1px solid variables.$azul_intenso;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        label{
+            margin: 10px 0;
+            color: variables.$azul_intenso;
+            font-weight: 700;
+        }
+        input{
+            border: 1px solid grey;
+            outline: none;
+            border-radius: 10px;
+            padding: 5px;
+            //background-color: variables.$celeste;
+        }
+        &__text{
+            height: 250px;
+            border-radius: 15px;
+            padding: 8px;
+            outline: none;
+        }
+        &__text:hover{
+            //border: 1px solid variables.$celeste;
+        }
+
+        input:hover{
+            outline: none;
+            //border: 1px solid variables.$celeste;
+        }
+        &__submit{
+            width: 80px;
+            height: 40px;
+            margin: 20px auto;
+            color: variables.$azul_intenso;
+            font-weight: 700;
+            border: none;
+            background-color: white;
+            
+        }
+        &__submit:hover{
+            cursor: pointer;
+            border: 2px solid variables.$celeste;
+        }
+    }
+    @media (min-width:1000px){
+        &__form{
+            //border: 1px solid red;
+            width: 600px;
+            margin: 50px auto;
+        }
+    }
+}
