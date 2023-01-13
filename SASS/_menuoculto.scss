@@ -5,13 +5,13 @@ body{
     //border: 1px solid red;
 }
 
-.menu{
+/*.menu{
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid variables.$color_grey_back;
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    //width: 50%;
     height: 100%;
     display: block; //activa la barra lateral
     //border: 1px solid red;
@@ -31,13 +31,11 @@ body{
         &__list2{
             list-style: none;
             position: relative;
-            top:150px;
-            left: 35%;
             display:flex;
             flex-direction: column;
             justify-content: space-between;
             //border: 1px solid green;
-            height: 150px;
+            //height: 150px;
             &__art{
                 //border:1px solid blue;
                 text-decoration: none;
@@ -50,4 +48,4 @@ body{
             }
         }
     }
-}
+}*/
