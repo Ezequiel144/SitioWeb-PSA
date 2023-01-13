@@ -2,7 +2,8 @@
 
 
 .footer{
-    padding: 5px 10px ;
+    
+    padding: 30px 10px 0px 10px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +27,8 @@
         font-size: 0.65rem;
         text-align: center;
         font-family: 'Dosis', sans-serif;
+        color: white;
+        background-color: black;
 
     }
     &__insta{
@@ -65,7 +68,7 @@
             font-size: 1rem;
             //border: 1px solid red;
             height: 80px;
-            width: 250px;
+            //width: 250px;
         }
         &__provee{
             height: 20px;
