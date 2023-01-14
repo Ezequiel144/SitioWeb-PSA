@@ -52,7 +52,7 @@
             //border: 1px solid red;
             margin: 20px auto;
             //padding: 40px 30px;
-            max-width: 510px;
+            max-width: 410px;
             &__title{
                 font-weight: 700;
                 font-size: 2.5rem;
@@ -72,7 +72,7 @@
         }
         &__part2{
             //padding: 40px 30px;
-            max-width: 510px;
+            max-width: 410px;
             margin: 20px auto;
             &__title{
                 font-weight: 700;
@@ -104,8 +104,10 @@
             color: variables.$azul_intenso;
         }
         &__busin{
+            max-width: 410px;
+            margin: 0 auto;
             //border: 1px solid green;
-            padding: 30px;
+            padding: 30px 0;
             &__img1,&__img2{
                 width: 100%;
                 border-radius: 20px;
@@ -118,7 +120,7 @@
         //border: 2px solid variables.$celesteAzul;
         //background-color: variables.$celesteAzul;
         border-radius: 50px;
-        padding: 40px 30px;
+        padding: 30px 0;
         &__title{
             font-weight: 700;
             font-size: 2.5rem;
@@ -128,6 +130,9 @@
             //color: white;
         }
         &__prim{
+            max-width: 410px;
+            margin: 0 auto;
+            //border: 1px solid red;
             //padding: 0px;
             &__img{
                 width: 100%;
@@ -210,7 +215,7 @@
             //border: 1px solid red;
             &__busin{
                 //border: 1px solid green;
-                width: 100%;
+                max-width: 100%;
                 margin: 0 auto;
                 display: flex;
                 &__img1{
@@ -229,13 +234,14 @@
             //border: 1px solid black;
             &__prim{
                 //padding: 0px;
-                margin: 20px 0;
-                border: 1px solid white;
+                //margin: 20px 0;
+                //border: 1px solid blue;
+                max-width: 100%;
                 display: flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
                 &__img{
-                    width: 450px;
+                    width: 410px;
                     margin: 30px 0;
                     
                 }
