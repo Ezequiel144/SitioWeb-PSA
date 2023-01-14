@@ -716,6 +716,14 @@ body {
 .mainProduc .carousel-item {
   object-fit: contain;
 }
+.mainProduc .carousel .carousel-control-prev, .mainProduc .carousel .carousel-control-next {
+  border-radius: 50px;
+  height: 30px;
+  margin: auto 0;
+}
+.mainProduc .carousel .carousel-control-prev:hover, .mainProduc .carousel .carousel-control-next:hover {
+  background-color: #00d4ff;
+}
 @media (min-width: 1000px) {
   .mainProduc {
     padding: 20px 40px;

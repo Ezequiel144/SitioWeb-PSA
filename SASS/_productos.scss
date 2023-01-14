@@ -122,6 +122,17 @@
         &-item{
             object-fit: contain;
         }
+        
+        .carousel-control-prev,.carousel-control-next{
+            //border: 2px solid rebeccapurple;
+            //background-color: variables.$celeste;
+            border-radius: 50px;
+            height: 30px;
+            margin: auto 0;
+        }
+        .carousel-control-prev:hover,.carousel-control-next:hover{
+            background-color: variables.$celeste;
+        }
     }
     @media (min-width:1000px){
         padding: 20px 40px;
