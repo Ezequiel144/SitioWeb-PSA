@@ -60,18 +60,30 @@
     @media (min-width:1000px){
         justify-content: space-around;
         height: 150px;
+        //border: 1px solid blue;
         &__logo{
             height: 110px;
             width: 250px;
         }
-        &__info,&__provee{
+        &__info{
             font-size: 1rem;
             //border: 1px solid red;
             height: 80px;
-            //width: 250px;
+            width: 200px;
         }
         &__provee{
             height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            &__link{
+                font-size: 1rem;
+                color: white;
+                text-decoration: none;
+                //border: 1px solid orangered;
+                
+            }
         }
         &__insta{
             img{

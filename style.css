@@ -59,12 +59,21 @@
     height: 110px;
     width: 250px;
   }
-  .footer__info, .footer__provee {
+  .footer__info {
     font-size: 1rem;
     height: 80px;
+    width: 200px;
   }
   .footer__provee {
     height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__provee__link {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
   }
   .footer__insta img {
     height: 50px;
@@ -721,7 +730,7 @@ body {
 }
 @media (min-width: 1000px) {
   .mainProduc {
-    padding: 20px 40px;
+    padding: 20px 0px;
   }
   .mainProduc__title {
     margin: 70px 0;
@@ -732,12 +741,12 @@ body {
   }
   .mainProduc__descrip__text {
     margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .mainProduc__contn__img {
     height: 405px;
     width: 100%;
     margin-right: 30px;
-    margin-bottom: 30px;
   }
   .mainProduc__contn__imgb {
     height: 440px;
@@ -747,6 +756,7 @@ body {
   }
   .mainProduc .cont2 {
     display: flex;
+    margin: 110px 0;
     height: 700px;
   }
   .mainProduc .conteiner__prod {
