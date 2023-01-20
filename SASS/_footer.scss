@@ -2,8 +2,8 @@
 
 
 .footer{
-    
-    padding: 30px 10px 0px 10px ;
+    //border: 1px solid orange;
+    padding: 30px 10px 10px 10px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,6 +54,28 @@
         margin-right: 15px;
         a{
             text-decoration: none;
+        }
+    }
+
+    @media (min-width:730px) {
+        &__logo{
+            width: 160px;
+            height: 65px;
+            //border: 1px solid red;
+            margin-top: -20px;
+        }
+        &__insta{
+            img{
+                height: 45px;
+                //border: 1px solid red;
+            }
+        }
+        &__info{
+            //border: 1px solid blue;
+            font-size: 0.8rem;
+        }
+        &__provee{
+            font-size: 0.8rem;
         }
     }
 
