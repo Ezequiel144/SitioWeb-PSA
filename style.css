@@ -381,7 +381,7 @@ body {
   margin: 30px 0;
   border-radius: 20px;
 }
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .content__all__party {
     width: 100%;
   }
