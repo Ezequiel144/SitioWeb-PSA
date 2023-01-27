@@ -6,7 +6,7 @@
     margin: auto;
     &__all{
         //border: 1px solid green;
-        padding: 40px 10px;
+        padding: 40px 0px;
         margin-bottom: 30px;
         &__party{
             //border: 1px solid blue;
@@ -131,8 +131,8 @@
         &__prim{
             margin: 0 auto;
             //border: 1px solid red;
-            //padding: 0px;
-            max-width: 360px;
+            padding: 0px;
+            width: 360px;
             &__img{
                 width: 100%;
                 margin: 30px 0;
@@ -155,7 +155,7 @@
                     max-width: 100%;
                     display: flex;
                     justify-content: space-between;
-                    padding: 0;
+                    padding: 2px;
                     &__img{
                         width: 32%;
                         height: 40%;
@@ -191,6 +191,7 @@
             }
         }
         &__all3{
+            //border: 1px solid red;
             &__title{
                 //border: 1px solid red;
                 font-size: 2rem;
@@ -200,14 +201,20 @@
             &__busin{
                 //border: 1px solid blue;
                 width: 100%;
-                padding: 0 32px;
+                padding: 0;
                 flex-direction: row;
+                &__cont{
+                    //border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2px;
+                }
                 &__img1{
-                    width: 29.55%;
-
+                    width: 28.55%;
+                    //width: 400px;
                 }
                 &__img2{
-                    width: 69.45%;
+                    width: 66.45%;
                 }
             }
         }
@@ -219,13 +226,15 @@
             &__prim{
                 //border: 1px solid green;
                 flex-direction: row;
-                max-width: 100%;
-                gap: 40px;
+                justify-content: space-around;
+                width: 100%;
+                //padding: 0 35px;
+                
                 &__img{
                     width: 32%;
                     height: 40%;
                     //max-width:330px;
-                    margin: 25px 3.5px;
+                    margin: 25px 3px;
                 }
             }
         }
@@ -316,7 +325,7 @@
             margin: 0 auto;            
             &__busin{
                 //border: 1px solid green;
-                margin: 0 auto;
+                margin: 20px 0;
                 display: flex;
                 width: 100%;
                 &__cont{
@@ -324,15 +333,16 @@
                     margin: auto;
                     display: flex;
                     flex-wrap: wrap;
-                    gap: 20px;
+                    gap: 15px;
+                    width: 90%;
                 }
                   
                 &__img1{
-                    width: 350px;
+                    width: 400px;
                     margin: auto;
                 }
                 &__img2{
-                    width: 650px;
+                    width: 680px;
                     margin: 0 auto;
                 }
             }
